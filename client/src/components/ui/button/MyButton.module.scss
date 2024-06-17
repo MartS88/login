@@ -1,0 +1,46 @@
+.mybutton {
+  width: auto;
+  height: 40px;
+  padding: 10px 10px;
+  border: 1px solid gray;
+  border-radius: 8px!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  cursor: pointer;
+  line-height: 18px;
+  font-size: 1.1rem;
+  font-family: 'Prompt';
+  color: black;
+  background: white;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  transition: all 0.5s ease!important;
+
+  &:hover {
+    transform: scale(0.95) translateZ(0)!important;
+  }
+
+  &.disabled {
+    width: auto;
+    height: 40px;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    border-radius: 8px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    line-height: 18px;
+    font-size: 1.1rem;
+    font-family: 'Prompt';
+    color: black;
+    background: white;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    transition: all 0.5s ease;
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+}
