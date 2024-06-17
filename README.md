@@ -1,6 +1,6 @@
 # Project
 
-## Installation and the Client
+## Installation  the Client
 
 To install dependencies and run the client, follow these steps:
 
