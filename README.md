@@ -30,7 +30,7 @@ To install dependencies, run database migrations, and start the server, follow t
 
 2. Run database migrations:
   
-    npx migrate db
+    npx sequelize-cli db:migrate
   
 
 3. Start the server:
