@@ -1,6 +1,6 @@
 # Project
 
-## Installation  the Client
+## Installation and Running the Client
 
 To install dependencies and run the client, follow these steps:
 
@@ -17,3 +17,22 @@ To install dependencies and run the client, follow these steps:
 3. Run the client:
   
    npm run start
+
+
+   ## Installation and Running the Server
+
+To install dependencies, run database migrations, and start the server, follow these steps:
+
+1. Install dependencies:
+  
+    npm install
+ 
+
+2. Run database migrations:
+  
+    npx migrate db
+  
+
+3. Start the server:
+ 
+    npm run start
